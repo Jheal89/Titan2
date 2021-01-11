@@ -3,9 +3,11 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-//	 System.out.println("HelloTom");
+	    com.tomb.Guitar fenderGuitar = new com.tomb.Guitar();
 
+		fenderGuitar.brand="fender";
+		fenderGuitar.numberOfStrings=6;
 
-        System.out.println("Hello J");
+		fenderGuitar.strum();
     }
 }
